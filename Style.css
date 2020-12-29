@@ -1,0 +1,209 @@
+body{
+    
+    background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/de76ef42-744b-4132-af1f-3a6a713b4e20/d5lsb1h-084c338d-4c95-4e53-99f1-e73a3eb89d85.jpg/v1/fill/w_1280,h_1811,q_75,strp/cv_background___1_by_comidion_d5lsb1h-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xODExIiwicGF0aCI6IlwvZlwvZGU3NmVmNDItNzQ0Yi00MTMyLWFmMWYtM2E2YTcxM2I0ZTIwXC9kNWxzYjFoLTA4NGMzMzhkLTRjOTUtNGU1My05OWYxLWU3M2EzZWI4OWQ4NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.5mmWkDiID7xzGAJy3ilUE4Pc90UWceF3bk8e_QDrz-E);
+}
+#container{
+    position: absolute;
+    
+    
+    
+    top:10%;
+    left: 20%;;
+    right: 20%;
+    bottom: 0%;
+    display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+}
+#div1{
+    position: absolute;
+    top:0px;
+    left:0px;
+    bottom: -151px;
+    right: 80%;
+    background-color:#595856;
+    
+    
+    
+    
+}
+#div2{
+    position: absolute;
+    top:0px;
+    left:20%;
+    bottom: 0px;
+    right: 0px;
+    background-color:#F8E9E6;
+    
+    
+}
+#container2{
+    position: absolute;
+    top:10%;
+    left:10%;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+    
+    display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 1fr 1fr 2fr;
+}
+#item1 img{
+    border-radius: 50%;
+    border: solid 5px #595856;
+    position: relative;
+    top:10px;
+    width: 100%;
+    height: 100%;
+
+}
+#item2{
+    line-height: 30px;
+    /* padding-top:10% ;
+    padding-left:5%;
+    padding-right: 10%; */
+}
+
+.pink{
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #F8E9E6;
+}
+.white{
+    padding-left: 5%;
+    padding-right: 10%;
+    
+    background-color: #FCFCFC;
+}
+.pink,.white{
+    color:#595756;
+}
+#myname{
+    
+    
+    
+    
+    font-size: 40px;
+    line-height: 35px;
+}
+#item2 div{
+    position: relative;
+    top: 10%;
+}
+.tittle{
+    font-size: 16px;
+    letter-spacing:5px;
+    font-weight: bolder;
+}
+ul{
+    list-style: none;
+}
+
+
+.item-list{
+    font-size: 12px;
+    padding: 5px;
+    margin-left: -25%;
+}
+.item-list i{
+    font-size: 130%;
+    padding-right: 10%;
+}
+
+   
+    
+
+.gachchan{
+    position: relative;
+    border: 1px solid #F0A7A1;
+    top:-15px;
+    left:-44%;
+    width: 10%;
+}
+#item4{
+    padding-top: 18px;
+}
+.tittle{
+    padding-top: 10%;
+}
+#PROFILE{
+    margin-top:-1%;
+    line-height: 260%;
+    
+}
+#item4 .gachchan{
+    width:7%;
+    left:-46%;
+}
+
+.box{
+    display: flex;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 10px;
+    margin-left: -25%;
+    background-color:#FCFCFC;
+    height: 20px;
+    margin-bottom: 5%;
+}
+
+.row{
+    background-color:#F0A7A1;
+    width: 30%;
+    
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    
+    margin-left: 33%;
+}
+#row1{
+    margin-left: 44%;
+    width: 20%;
+}
+#row2{
+    margin-left: 15%;
+    width: 50%;
+}
+#row3{
+    margin-left: 17%;
+    width: 40%;
+}
+#row4{
+    margin-left: 14%;
+    width: 45%;
+}
+#row5{
+    margin-left: 30%;
+    width: 30%;
+}
+#skill{
+    margin-left: -25%;
+}
+#gachchanskill{
+    width:12%;
+    left:-68%;
+    
+}
+#item6{
+    padding-top:4%;
+}
+
+
+#item6 div{
+    padding-top:1%;
+
+}
+#item6 div div{
+    font-size: 90%;
+    
+}
+.jobname{
+    font-size: 80%;
+    color:#A4A4A4;
+}
+#gachchanexp{
+    width: 8%;
+    left: -45%;
+}
